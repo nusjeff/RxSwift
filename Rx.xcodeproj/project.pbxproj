@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		033C2EF61D081C460050C015 /* UIScrollView+RxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033C2EF41D081B2A0050C015 /* UIScrollView+RxTests.swift */; };
+		0487D4A62CC8B0B50020CA9C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 0487D4A52CC8B0B50020CA9C /* PrivacyInfo.xcprivacy */; };
+		0487D4A82CC8B0F00020CA9C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 0487D4A72CC8B0F00020CA9C /* PrivacyInfo.xcprivacy */; };
+		0487D4A92CC8B0F00020CA9C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 0487D4A72CC8B0F00020CA9C /* PrivacyInfo.xcprivacy */; };
+		0487D4AB2CC8B1200020CA9C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 0487D4AA2CC8B1200020CA9C /* PrivacyInfo.xcprivacy */; };
+		0487D4AC2CC8B1200020CA9C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 0487D4AA2CC8B1200020CA9C /* PrivacyInfo.xcprivacy */; };
+		0487D4AD2CC8B1200020CA9C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 0487D4AA2CC8B1200020CA9C /* PrivacyInfo.xcprivacy */; };
 		0BA949671E224B7E0036DD06 /* AsyncSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA949661E224B7E0036DD06 /* AsyncSubject.swift */; };
 		0BA9496C1E224B9C0036DD06 /* AsyncSubjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA9496B1E224B9C0036DD06 /* AsyncSubjectTests.swift */; };
 		0BA9496D1E224B9C0036DD06 /* AsyncSubjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA9496B1E224B9C0036DD06 /* AsyncSubjectTests.swift */; };
@@ -933,6 +939,9 @@
 
 /* Begin PBXFileReference section */
 		033C2EF41D081B2A0050C015 /* UIScrollView+RxTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+RxTests.swift"; sourceTree = "<group>"; };
+		0487D4A52CC8B0B50020CA9C /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Sources/RxSwift/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		0487D4A72CC8B0F00020CA9C /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Sources/RxCocoa/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		0487D4AA2CC8B1200020CA9C /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Sources/RxRelay/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		0BA949661E224B7E0036DD06 /* AsyncSubject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncSubject.swift; sourceTree = "<group>"; };
 		0BA9496B1E224B9C0036DD06 /* AsyncSubjectTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncSubjectTests.swift; sourceTree = "<group>"; };
 		1AF67DA11CED420A00C310FA /* PublishSubjectTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublishSubjectTest.swift; sourceTree = "<group>"; };
@@ -2366,6 +2375,9 @@
 		C8A56ACD1AD7424700B4673B = {
 			isa = PBXGroup;
 			children = (
+				0487D4AA2CC8B1200020CA9C /* PrivacyInfo.xcprivacy */,
+				0487D4A72CC8B0F00020CA9C /* PrivacyInfo.xcprivacy */,
+				0487D4A52CC8B0B50020CA9C /* PrivacyInfo.xcprivacy */,
 				C85B01711DB2ACF2006043C3 /* Platform */,
 				C8093C471B8A72BE0088E94D /* RxSwift */,
 				C8093F571B8A73A20088E94D /* RxBlocking */,
@@ -2772,6 +2784,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0487D4AD2CC8B1200020CA9C /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2779,6 +2792,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0487D4AB2CC8B1200020CA9C /* PrivacyInfo.xcprivacy in Resources */,
+				0487D4A92CC8B0F00020CA9C /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2828,6 +2843,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0487D4AC2CC8B1200020CA9C /* PrivacyInfo.xcprivacy in Resources */,
+				0487D4A82CC8B0F00020CA9C /* PrivacyInfo.xcprivacy in Resources */,
+				0487D4A62CC8B0B50020CA9C /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
