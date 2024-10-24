@@ -36,4 +36,9 @@ gitDiff().grep("bug").less          // sequences of swift objects
   s.exclude_files         = 'RxSwift/Platform/**/*.swift'
 
   s.swift_version = '5.0'
+  
+  s.resource_bundles = {
+    'RxSwift_Privacy' => ['Sources/RxSwift/PrivacyInfo.xcprivacy'],
+  }
+  
 end
