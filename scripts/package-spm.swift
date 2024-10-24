@@ -94,7 +94,7 @@ func packageRelativePath(_ paths: [String], targetDirName: String, excluded: [St
     print("Checking " + targetPath)
 
     for file in try fileManager.contentsOfDirectory(atPath: targetPath).sorted { $0 < $1 }  {
-        if file != "include" && file != ".DS_Store" {
+        if file != "include" && file != ".DS_Store" && file != "PrivacyInfo.xcprivacy" {
             print("Checking extension \(file)")
             try checkExtension(file)
 

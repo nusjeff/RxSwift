@@ -1,4 +1,4 @@
-// swift-tools-version:5.0
+// swift-tools-version:5.3
 
 import PackageDescription
 
@@ -19,7 +19,7 @@ extension Target {
         .target(
             name: name,
             dependencies: dependencies,
-            resources: [.copy("PrivacyInfo.xcprivacy")]
+            resources: [.process("PrivacyInfo.xcprivacy")]
         )
     }
 }
@@ -67,12 +67,12 @@ let package = Package(
   ] as [[Product]]).flatMap { $0 },
   targets: ([
     [
-      .target(name: "RxSwift", dependencies: []),
-    ], 
+      .rxTarget(name: "RxSwift", dependencies: []),
+    ],
     Target.rxCocoa(),
     Target.rxCocoaRuntime(),
     [
-      .target(name: "RxRelay", dependencies: ["RxSwift"]),
+      .rxTarget(name: "RxRelay", dependencies: ["RxSwift"]),
       .target(name: "RxBlocking", dependencies: ["RxSwift"]),
       .target(name: "RxTest", dependencies: ["RxSwift"]),
     ],
