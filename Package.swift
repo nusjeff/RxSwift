@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.5
 
 import PackageDescription
 
@@ -19,7 +19,7 @@ extension Target {
         .target(
             name: name,
             dependencies: dependencies,
-            resources: [.process("PrivacyInfo.xcprivacy")]
+            resources: [.copy("PrivacyInfo.xcprivacy")]
         )
     }
 }
@@ -52,9 +52,7 @@ extension Target {
 
 let package = Package(
   name: "RxSwift",
-  platforms: [
-    .macOS(.v10_10), .iOS(.v8), .tvOS(.v9), .watchOS(.v3)
-  ],
+  platforms: [.iOS(.v9), .macOS(.v10_10), .watchOS(.v3), .tvOS(.v9)],
   products: ([
     [
       .library(name: "RxSwift", targets: ["RxSwift"]),
