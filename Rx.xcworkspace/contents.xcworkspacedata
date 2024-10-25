@@ -121,4 +121,1279 @@
    <FileRef
       location = "group:RxExample/RxExample.xcodeproj">
    </FileRef>
+   <Group
+      location = "group:Sources"
+      name = "Sources">
+      <Group
+         location = "group:RxCocoa"
+         name = "RxCocoa">
+         <FileRef
+            location = "group:UIDatePicker+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:KeyPathBinder.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UIScrollView+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UIApplication+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Driver+Subscription.swift">
+         </FileRef>
+         <FileRef
+            location = "group:SharedSequence.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ControlEvent.swift">
+         </FileRef>
+         <FileRef
+            location = "group:NSView+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UISegmentedControl+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ObservableConvertibleType+Signal.swift">
+         </FileRef>
+         <FileRef
+            location = "group:NSObject+Rx+KVORepresentable.swift">
+         </FileRef>
+         <FileRef
+            location = "group:PublishRelay+Signal.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UITextView+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ControlProperty.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RxTableViewDataSourcePrefetchingProxy.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Logging.swift">
+         </FileRef>
+         <FileRef
+            location = "group:NSLayoutConstraint+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UIRefreshControl+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:DispatchQueue+Extensions.swift">
+         </FileRef>
+         <FileRef
+            location = "group:SharedSequence+Operators+arity.swift">
+         </FileRef>
+         <FileRef
+            location = "group:DelegateProxy.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UIImageView+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RxPickerViewDelegateProxy.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UILabel+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UITabBarItem+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:NSTextStorage+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:NSButton+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RxTableViewDelegateProxy.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UIProgressView+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Signal+Subscription.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UITabBarController+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RxNavigationControllerDelegateProxy.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RxSearchControllerDelegateProxy.swift">
+         </FileRef>
+         <FileRef
+            location = "group:SchedulerType+SharedSequence.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RxTabBarControllerDelegateProxy.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UITextField+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:BehaviorRelay+Driver.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ObservableConvertibleType+Driver.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RxCocoaObjCRuntimeError+Extensions.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UISearchBar+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:KVORepresentable.swift">
+         </FileRef>
+         <FileRef
+            location = "group:NSTextView+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:NSObject+Rx+RawRepresentable.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Binder.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RxPickerViewAdapter.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UIAlertAction+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UISlider+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:SharedSequence+Operators.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RxCollectionViewDataSourcePrefetchingProxy.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RxCollectionViewDelegateProxy.swift">
+         </FileRef>
+         <FileRef
+            location = "group:TextInput.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RxPickerViewDataSourceType.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UIPickerView+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:NSTextField+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:NotificationCenter+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ControlEvent+Signal.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RxScrollViewDelegateProxy.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RxPickerViewDataSourceProxy.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UIView+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:KVORepresentable+CoreGraphics.swift">
+         </FileRef>
+         <FileRef
+            location = "group:SectionedViewDataSourceType.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RxTableViewDataSourceProxy.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UIButton+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UISearchController+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RxSearchBarDelegateProxy.swift">
+         </FileRef>
+         <FileRef
+            location = "group:KVORepresentable+Swift.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UITabBar+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UISwitch+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Driver.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Deprecated.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UIPageControl+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:NSObject+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ControlTarget.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UIViewController+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RxCollectionViewDataSourceType.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UICollectionView+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UIActivityIndicatorView+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+Bind.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ObservableConvertibleType+SharedSequence.swift">
+         </FileRef>
+         <FileRef
+            location = "group:URLSession+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RxCollectionViewDataSourceProxy.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UITableView+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ControlEvent+Driver.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RxTableViewDataSourceType.swift">
+         </FileRef>
+         <FileRef
+            location = "group:NSControl+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ControlProperty+Driver.swift">
+         </FileRef>
+         <FileRef
+            location = "group:NSSlider+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RxTextViewDelegateProxy.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RxTextStorageDelegateProxy.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ItemEvents.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RxCollectionViewReactiveArrayDataSource.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Signal.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UIGestureRecognizer+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RxTableViewReactiveArrayDataSource.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RxCocoa.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UIStepper+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UINavigationController+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UIControl+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RxTarget.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RxTabBarDelegateProxy.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UIBarButtonItem+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:NSImageView+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UINavigationItem+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:DelegateProxyType.swift">
+         </FileRef>
+         <FileRef
+            location = "group:PrivacyInfo.xcprivacy">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:RxSwift"
+         name = "RxSwift">
+         <FileRef
+            location = "group:AsMaybe.swift">
+         </FileRef>
+         <FileRef
+            location = "group:SubjectType.swift">
+         </FileRef>
+         <FileRef
+            location = "group:DisposeBase.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Cancelable.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ScheduledItem.swift">
+         </FileRef>
+         <FileRef
+            location = "group:GroupedObservable.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Timeout.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RecursiveScheduler.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Never.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Completable+AndThen.swift">
+         </FileRef>
+         <FileRef
+            location = "group:BehaviorSubject.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RetryWhen.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Do.swift">
+         </FileRef>
+         <FileRef
+            location = "group:OperationQueueScheduler.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Deferred.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Bag+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:LockOwnerType.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Platform.Darwin.swift">
+         </FileRef>
+         <FileRef
+            location = "group:SynchronizedDisposeType.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Buffer.swift">
+         </FileRef>
+         <FileRef
+            location = "group:SubscribeOn.swift">
+         </FileRef>
+         <FileRef
+            location = "group:VirtualTimeScheduler.swift">
+         </FileRef>
+         <FileRef
+            location = "group:SynchronizedOnType.swift">
+         </FileRef>
+         <FileRef
+            location = "group:DefaultIfEmpty.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Using.swift">
+         </FileRef>
+         <FileRef
+            location = "group:AsyncSubject.swift">
+         </FileRef>
+         <FileRef
+            location = "group:DispatchQueue+Extensions.swift">
+         </FileRef>
+         <FileRef
+            location = "group:DisposeBag.swift">
+         </FileRef>
+         <FileRef
+            location = "group:SchedulerServices+Emulation.swift">
+         </FileRef>
+         <FileRef
+            location = "group:CurrentThreadScheduler.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Delay.swift">
+         </FileRef>
+         <FileRef
+            location = "group:AtomicInt.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Producer.swift">
+         </FileRef>
+         <FileRef
+            location = "group:GroupBy.swift">
+         </FileRef>
+         <FileRef
+            location = "group:InvocableType.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RxMutableBox.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Concat.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ReplaySubject.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ScheduledDisposable.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Event.swift">
+         </FileRef>
+         <FileRef
+            location = "group:MainScheduler.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Take.swift">
+         </FileRef>
+         <FileRef
+            location = "group:TakeWhile.swift">
+         </FileRef>
+         <FileRef
+            location = "group:TakeLast.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Error.swift">
+         </FileRef>
+         <FileRef
+            location = "group:PublishSubject.swift">
+         </FileRef>
+         <FileRef
+            location = "group:InvocableScheduledItem.swift">
+         </FileRef>
+         <FileRef
+            location = "group:CombineLatest.swift">
+         </FileRef>
+         <FileRef
+            location = "group:NopDisposable.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Sample.swift">
+         </FileRef>
+         <FileRef
+            location = "group:AnyObserver.swift">
+         </FileRef>
+         <FileRef
+            location = "group:AsSingle.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Completable.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Empty.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Enumerated.swift">
+         </FileRef>
+         <FileRef
+            location = "group:DistinctUntilChanged.swift">
+         </FileRef>
+         <FileRef
+            location = "group:SubscriptionDisposable.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ConcurrentDispatchQueueScheduler.swift">
+         </FileRef>
+         <FileRef
+            location = "group:First.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Lock.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Timer.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Single.swift">
+         </FileRef>
+         <FileRef
+            location = "group:AddRef.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Sequence.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ObserverBase.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Sink.swift">
+         </FileRef>
+         <FileRef
+            location = "group:AsyncLock.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Throttle.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Range.swift">
+         </FileRef>
+         <FileRef
+            location = "group:CompactMap.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Disposable.swift">
+         </FileRef>
+         <FileRef
+            location = "group:PrimitiveSequence.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RefCountDisposable.swift">
+         </FileRef>
+         <FileRef
+            location = "group:WithLatestFrom.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ObserveOn.swift">
+         </FileRef>
+         <FileRef
+            location = "group:CombineLatest+Collection.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ObservableType+Extensions.swift">
+         </FileRef>
+         <FileRef
+            location = "group:CompositeDisposable.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ConcurrentMainScheduler.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Multicast.swift">
+         </FileRef>
+         <FileRef
+            location = "group:SkipWhile.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ObserverType.swift">
+         </FileRef>
+         <FileRef
+            location = "group:TailRecursiveSink.swift">
+         </FileRef>
+         <FileRef
+            location = "group:SerialDispatchQueueScheduler.swift">
+         </FileRef>
+         <FileRef
+            location = "group:DelaySubscription.swift">
+         </FileRef>
+         <FileRef
+            location = "group:HistoricalScheduler.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Bag.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Repeat.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Platform.Linux.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Reactive.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Maybe.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Date+Dispatch.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ToArray.swift">
+         </FileRef>
+         <FileRef
+            location = "group:TakeUntil.swift">
+         </FileRef>
+         <FileRef
+            location = "group:DispatchQueueConfiguration.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Switch.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Window.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Debounce.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Dematerialize.swift">
+         </FileRef>
+         <FileRef
+            location = "group:SynchronizedUnsubscribeType.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Zip+Collection.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Deprecated.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Catch.swift">
+         </FileRef>
+         <FileRef
+            location = "group:AnonymousObserver.swift">
+         </FileRef>
+         <FileRef
+            location = "group:SwiftSupport.swift">
+         </FileRef>
+         <FileRef
+            location = "group:PriorityQueue.swift">
+         </FileRef>
+         <FileRef
+            location = "group:SingleAssignmentDisposable.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Queue.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ObservableConvertibleType.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Filter.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ObservableType+PrimitiveSequence.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Amb.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Reduce.swift">
+         </FileRef>
+         <FileRef
+            location = "group:VirtualTimeConverterType.swift">
+         </FileRef>
+         <FileRef
+            location = "group:CombineLatest+arity.swift">
+         </FileRef>
+         <FileRef
+            location = "group:HistoricalSchedulerTimeConverter.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Zip.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Debug.swift">
+         </FileRef>
+         <FileRef
+            location = "group:SchedulerType.swift">
+         </FileRef>
+         <FileRef
+            location = "group:SerialDisposable.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ConnectableObservableType.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Merge.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ObservableType.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Errors.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Skip.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Map.swift">
+         </FileRef>
+         <FileRef
+            location = "group:BinaryDisposable.swift">
+         </FileRef>
+         <FileRef
+            location = "group:SkipUntil.swift">
+         </FileRef>
+         <FileRef
+            location = "group:InfiniteSequence.swift">
+         </FileRef>
+         <FileRef
+            location = "group:PrimitiveSequence+Zip+arity.swift">
+         </FileRef>
+         <FileRef
+            location = "group:AnonymousDisposable.swift">
+         </FileRef>
+         <FileRef
+            location = "group:StartWith.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Just.swift">
+         </FileRef>
+         <FileRef
+            location = "group:BooleanDisposable.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Optional.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Generate.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ShareReplayScope.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Disposables.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RecursiveLock.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ScheduledItemType.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Scan.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Zip+arity.swift">
+         </FileRef>
+         <FileRef
+            location = "group:SwitchIfEmpty.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ElementAt.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Create.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Materialize.swift">
+         </FileRef>
+         <FileRef
+            location = "group:SingleAsync.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ImmediateSchedulerType.swift">
+         </FileRef>
+         <FileRef
+            location = "group:PrivacyInfo.xcprivacy">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:RxRelay"
+         name = "RxRelay">
+         <FileRef
+            location = "group:PublishRelay.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+Bind.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Utils.swift">
+         </FileRef>
+         <FileRef
+            location = "group:BehaviorRelay.swift">
+         </FileRef>
+         <FileRef
+            location = "group:PrivacyInfo.xcprivacy">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:AllTestz"
+         name = "AllTestz">
+         <FileRef
+            location = "group:Observable+TakeLastTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:AssumptionsTest.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+WindowTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:MainSchedulerTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+UsingTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+SequenceTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Completable+AndThen.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+DelayTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+ScanTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Event+Test.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+RepeatTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+MergeTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:DisposeBagTest.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Platform.Darwin.swift">
+         </FileRef>
+         <FileRef
+            location = "group:SharedSequence+Extensions.swift">
+         </FileRef>
+         <FileRef
+            location = "group:SingleTest.swift">
+         </FileRef>
+         <FileRef
+            location = "group:AtomicTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+EnumeratedTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+JustTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+DefaultIfEmpty.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ObservableType+SubscriptionTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RecursiveLockTest.swift">
+         </FileRef>
+         <FileRef
+            location = "group:DispatchQueue+Extensions.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+ThrottleTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+SwitchTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:BehaviorSubjectTest.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+GenerateTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+SubscribeOnTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+SampleTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:AtomicInt.swift">
+         </FileRef>
+         <FileRef
+            location = "group:PublishSubjectTest.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+SkipTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RxMutableBox.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+OptionalTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:BackgroundThreadPrimitiveHotObservable.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+ObserveOnTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:CompletableTest.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+SkipUntilTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+DematerializeTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:DisposableTest.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+TakeWhileTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+RelayBindTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+CombineLatestTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+MulticastTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+ConcatTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:SchedulerTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+ZipTests+arity.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable.Extensions.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+TimeoutTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+Tests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:CurrentThreadSchedulerTest.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Anomalies.swift">
+         </FileRef>
+         <FileRef
+            location = "group:NotificationCenterTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+TimerTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+AmbTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+RetryWhenTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:MockDisposable.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+PrimitiveSequenceTest.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+DebugTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Reactive+Tests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+RangeTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Driver+Test.swift">
+         </FileRef>
+         <FileRef
+            location = "group:MaybeTest.swift">
+         </FileRef>
+         <FileRef
+            location = "group:SharingSchedulerTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:PrimitiveSequenceTest+zip+arity.swift">
+         </FileRef>
+         <FileRef
+            location = "group:PrimitiveMockObserver.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+TakeTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+DoOnTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:MainThreadPrimitiveHotObservable.swift">
+         </FileRef>
+         <FileRef
+            location = "group:XCTest+AllTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+ElementAtTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:TestVirtualScheduler.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+MaterializeTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Bag.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Platform.Linux.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+BlockingTest.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+ZipTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+FilterTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+CatchTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Synchronized.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ObserverTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+SingleTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Signal+Test.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ElementIndexPair.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+TakeUntilTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+SwitchIfEmptyTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+MapTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+ToArrayTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:PriorityQueue.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+Extensions.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Queue.swift">
+         </FileRef>
+         <FileRef
+            location = "group:MySubject.swift">
+         </FileRef>
+         <FileRef
+            location = "group:TestErrors.swift">
+         </FileRef>
+         <FileRef
+            location = "group:PrimitiveHotObservable.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ReplaySubjectTest.swift">
+         </FileRef>
+         <FileRef
+            location = "group:SharedSequence+Test.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+SubscriptionTest.swift">
+         </FileRef>
+         <FileRef
+            location = "group:VirtualSchedulerTest.swift">
+         </FileRef>
+         <FileRef
+            location = "group:SharedSequence+OperatorTest.swift">
+         </FileRef>
+         <FileRef
+            location = "group:HistoricalSchedulerTest.swift">
+         </FileRef>
+         <FileRef
+            location = "group:EquatableArray.swift">
+         </FileRef>
+         <FileRef
+            location = "group:InfiniteSequence.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Atomic+Overrides.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+WithLatestFromTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:main.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+SkipWhileTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+ReduceTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+BufferTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RecursiveLock.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+DelaySubscriptionTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+CombineLatestTests+arity.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+GroupByTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:TestConnectableObservable.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RxTest.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+DistinctUntilChangedTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+CompactMapTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Recorded+Timeless.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Observable+ShareReplayScopeTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:AsyncSubjectTests.swift">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:RxCocoaRuntime"
+         name = "RxCocoaRuntime">
+         <FileRef
+            location = "group:_RXDelegateProxy.m">
+         </FileRef>
+         <FileRef
+            location = "group:_RXObjCRuntime.m">
+         </FileRef>
+         <FileRef
+            location = "group:_RX.m">
+         </FileRef>
+         <Group
+            location = "group:include"
+            name = "include">
+            <FileRef
+               location = "group:_RXKVOObserver.h">
+            </FileRef>
+            <FileRef
+               location = "group:_RXObjCRuntime.h">
+            </FileRef>
+            <FileRef
+               location = "group:_RXDelegateProxy.h">
+            </FileRef>
+            <FileRef
+               location = "group:_RX.h">
+            </FileRef>
+            <FileRef
+               location = "group:RxCocoaRuntime.h">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:_RXKVOObserver.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:RxTest"
+         name = "RxTest">
+         <FileRef
+            location = "group:HotObservable.swift">
+         </FileRef>
+         <FileRef
+            location = "group:TestableObservable.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Recorded+Event.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Any+Equatable.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Event+Equatable.swift">
+         </FileRef>
+         <FileRef
+            location = "group:TestSchedulerVirtualTimeConverter.swift">
+         </FileRef>
+         <FileRef
+            location = "group:TestableObserver.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Bag.swift">
+         </FileRef>
+         <FileRef
+            location = "group:TestScheduler.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Subscription.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Deprecated.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Recorded.swift">
+         </FileRef>
+         <FileRef
+            location = "group:XCTest+Rx.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ColdObservable.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RxTest.swift">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:RxBlocking"
+         name = "RxBlocking">
+         <FileRef
+            location = "group:Platform.Darwin.swift">
+         </FileRef>
+         <FileRef
+            location = "group:AtomicInt.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Platform.Linux.swift">
+         </FileRef>
+         <FileRef
+            location = "group:BlockingObservable.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ObservableConvertibleType+Blocking.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RunLoopLock.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Resources.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RecursiveLock.swift">
+         </FileRef>
+         <FileRef
+            location = "group:BlockingObservable+Operators.swift">
+         </FileRef>
+      </Group>
+   </Group>
 </Workspace>
