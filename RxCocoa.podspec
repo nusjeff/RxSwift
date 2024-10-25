@@ -14,20 +14,25 @@ Pod::Spec.new do |s|
 
   s.requires_arc          = true
 
-  s.ios.deployment_target = '8.0'
-  s.osx.deployment_target = '10.9'
+  s.ios.deployment_target = '9.0'
+  s.osx.deployment_target = '10.10'
   s.watchos.deployment_target = '3.0'
   s.tvos.deployment_target = '9.0'
+  s.visionos.deployment_target = "1.0" if s.respond_to?(:visionos)
 
+  s.header_dir            = "RxCocoa"
   s.source_files          = 'RxCocoa/**/*.{swift,h,m}', 'Platform/**/*.swift'
   s.exclude_files         = 'RxCocoa/Platform/**/*.swift', 'Platform/AtomicInt.swift'
 
-  s.dependency 'RxSwift', '~> 5'
+    s.dependency 'RxSwift', '~> 5'
   s.dependency 'RxRelay', '~> 5'
 
-  s.swift_version = '5.0'
-  
   s.resource_bundles = {
     'RxCocoa_Privacy' => ['Sources/RxCocoa/PrivacyInfo.xcprivacy'],
   }
+
+  s.swift_version = '5.1'
+
+  s.pod_target_xcconfig = { 'APPLICATION_EXTENSION_API_ONLY' => 'YES' }
+  
 end

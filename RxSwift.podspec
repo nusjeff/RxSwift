@@ -27,18 +27,21 @@ gitDiff().grep("bug").less          // sequences of swift objects
 
   s.requires_arc          = true
 
-  s.ios.deployment_target = '8.0'
-  s.osx.deployment_target = '10.9'
+  s.ios.deployment_target = '9.0'
+  s.osx.deployment_target = '10.10'
   s.watchos.deployment_target = '3.0'
   s.tvos.deployment_target = '9.0'
+  s.visionos.deployment_target = "1.0" if s.respond_to?(:visionos)
 
   s.source_files          = 'RxSwift/**/*.swift', 'Platform/**/*.swift'
   s.exclude_files         = 'RxSwift/Platform/**/*.swift'
 
-  s.swift_version = '5.0'
-  
   s.resource_bundles = {
     'RxSwift_Privacy' => ['Sources/RxSwift/PrivacyInfo.xcprivacy'],
   }
+  
+  s.swift_version = '5.1'
+
+  s.pod_target_xcconfig = { 'APPLICATION_EXTENSION_API_ONLY' => 'YES' }
   
 end
