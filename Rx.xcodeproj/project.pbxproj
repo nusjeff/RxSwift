@@ -9,10 +9,7 @@
 /* Begin PBXBuildFile section */
 		033C2EF61D081C460050C015 /* UIScrollView+RxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033C2EF41D081B2A0050C015 /* UIScrollView+RxTests.swift */; };
 		0487D4A62CC8B0B50020CA9C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 0487D4A52CC8B0B50020CA9C /* PrivacyInfo.xcprivacy */; };
-		0487D4A82CC8B0F00020CA9C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 0487D4A72CC8B0F00020CA9C /* PrivacyInfo.xcprivacy */; };
 		0487D4A92CC8B0F00020CA9C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 0487D4A72CC8B0F00020CA9C /* PrivacyInfo.xcprivacy */; };
-		0487D4AB2CC8B1200020CA9C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 0487D4AA2CC8B1200020CA9C /* PrivacyInfo.xcprivacy */; };
-		0487D4AC2CC8B1200020CA9C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 0487D4AA2CC8B1200020CA9C /* PrivacyInfo.xcprivacy */; };
 		0487D4AD2CC8B1200020CA9C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 0487D4AA2CC8B1200020CA9C /* PrivacyInfo.xcprivacy */; };
 		0BA949671E224B7E0036DD06 /* AsyncSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA949661E224B7E0036DD06 /* AsyncSubject.swift */; };
 		0BA9496C1E224B9C0036DD06 /* AsyncSubjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA9496B1E224B9C0036DD06 /* AsyncSubjectTests.swift */; };
@@ -2792,7 +2789,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0487D4AB2CC8B1200020CA9C /* PrivacyInfo.xcprivacy in Resources */,
 				0487D4A92CC8B0F00020CA9C /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2843,8 +2839,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0487D4AC2CC8B1200020CA9C /* PrivacyInfo.xcprivacy in Resources */,
-				0487D4A82CC8B0F00020CA9C /* PrivacyInfo.xcprivacy in Resources */,
 				0487D4A62CC8B0B50020CA9C /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
